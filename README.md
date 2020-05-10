@@ -1,4 +1,4 @@
-# KAJIBO1
+# KAJIBO1 の操作方法説明用 LIFF アプリ
 
 家事 BOT の試作
 

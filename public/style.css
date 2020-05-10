@@ -4,3 +4,7 @@
 h2 {
   border-bottom: 1px solid #eee;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}

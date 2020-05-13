@@ -96,30 +96,6 @@ function registerButtonHandlers() {
       }
     });
 }
-function registerButtonHandlers() {
-  // sendMessages call
-  document
-    .getElementById("sendMessageButton2")
-    .addEventListener("click", function () {
-      if (!liff.isInClient()) {
-        sendAlertIfNotInClient();
-      } else {
-        liff
-          .sendMessages([
-            {
-              type: "text",
-              text: "ルームに入る",
-            },
-          ])
-          .then(function () {
-            window.alert("Message sent");
-          })
-          .catch(function (error) {
-            window.alert("Error sending message: " + error);
-          });
-      }
-    });
-}
 
 /**
  * Alert the user if LIFF is opened in an external browser and unavailable buttons are tapped

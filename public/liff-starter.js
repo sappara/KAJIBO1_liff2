@@ -84,7 +84,7 @@ function registerButtonHandlers() {
           .sendMessages([
             {
               type: "text",
-              text: "家事マニュアルを見る",
+              text: "洗濯マニュアル",
             },
           ])
           .then(function () {
